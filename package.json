@@ -1,0 +1,50 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "aws-sdk": "^2.349.0",
+    "cors": "^2.8.4",
+    "dateformat": "^4.5.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.0.0",
+    "express-group-routes": "^1.1.0",
+    "formidable": "^1.2.2",
+    "fs": "0.0.1-security",
+    "gridfs-stream": "^1.1.1",
+    "lodash": "^4.17.15",
+    "markdown": "^0.5.0",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.15",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "node-cron": "^2.0.3",
+    "node-time-ago": "^1.0.0",
+    "nodeman": "^1.1.2",
+    "passport-local": "^1.0.0",
+    "pkg": "^4.4.9",
+    "ucfirst": "^1.0.0",
+    "uniqid": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "pkg": {
+    "assets": [
+      "./node_modules/axios/**",
+      "./node_modules/diskusage/**",
+      "./node_modules/node-powershell/**",
+      "./node_modules/os/**",
+      "./node_modules/tasklist/**",
+      "./node_modules/diskusage/**"
+    ]
+  }
+}
